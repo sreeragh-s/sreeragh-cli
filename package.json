@@ -1,5 +1,5 @@
 {
-  "name": "sreeragh-cli",
+  "name": "sreeragh",
   "version": "1.0.0",
   "description": "Interactive CLI for Sreeragh's portfolio",
   "main": "dist/index.js",
@@ -41,5 +41,14 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreeragh-s/sreeragh-cli.git"
+  },
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/sreeragh-s/sreeragh-cli/issues"
+  },
+  "homepage": "https://github.com/sreeragh-s/sreeragh-cli#readme"
 }
