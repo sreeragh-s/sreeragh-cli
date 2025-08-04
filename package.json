@@ -1,0 +1,45 @@
+{
+  "name": "sreeragh-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI for Sreeragh's portfolio",
+  "main": "dist/index.js",
+  "bin": {
+    "sreeragh": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "portfolio",
+    "terminal",
+    "interactive"
+  ],
+  "author": "Sreeragh S",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.5",
+    "nanospinner": "^1.1.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/gradient-string": "^1.1.6",
+    "@types/inquirer": "^8.2.5",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
